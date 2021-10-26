@@ -1,9 +1,20 @@
+.body {
+  font-family: poppins;
+}
+
 .bg-grey {
-  background-color: rgba(148, 145, 141, 0.479);
+  background-color: #efeff5 !important;
 }
 
 h1 {
   color: grey;
+  font-weight: bolder;
+}
+
+h5 {
+  color: grey;
+  font-weight: lighter;
+  font-size: smaller;
 }
 
 div.left {
@@ -19,4 +30,40 @@ div.left {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.bg-button {
+  background-color: #ff265b !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border: oldlace;
+}
+
+.bg-button-secondary {
+  background-color: whitesmoke !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: gray;
+}
+
+.bg-button-secondary:hover {
+  background-color: #ff265b !important;
+  color: white;
+}
+
+.bg-button-back {
+  background-color: pink !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: white;
+}
+
+.bg-button-back:hover {
+  background-color: #ff265b !important;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
 }
