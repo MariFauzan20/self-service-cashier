@@ -7,14 +7,14 @@
 }
 
 h1 {
-  color: grey;
+  color: black;
   font-weight: bolder;
 }
 
 h5 {
-  color: grey;
+  color: gray;
   font-weight: lighter;
-  font-size: smaller;
+  font-size: 3px;
 }
 
 div.left {
