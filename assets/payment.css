@@ -21,4 +21,12 @@
     color:black !important;
 }
 
-
+body {
+    background: #ddd;
+    min-height: 100vh;
+    vertical-align: middle;
+    display: flex;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-weight: bold
+}
