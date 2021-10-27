@@ -1,0 +1,24 @@
+.card {
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent
+}
+
+.btn {
+    width: 50%;
+    font-size: 0.7rem;
+    margin-top: 1vh;
+    background-color: #ff265b !important ;
+    color: white !important;
+
+}
+
+.btn:hover{
+    background-color:#ee5d8e !important;
+    color:black !important;
+}
+
+
