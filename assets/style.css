@@ -1,0 +1,69 @@
+.body {
+  font-family: poppins;
+}
+
+.bg-grey {
+  background-color: #efeff5 !important;
+}
+
+h1 {
+  color: black;
+  font-weight: bolder;
+}
+
+h5 {
+  color: gray;
+  font-weight: lighter;
+  font-size: 3px;
+}
+
+div.left {
+  word-wrap: break-word;
+}
+
+.card {
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bg-button {
+  background-color: #ff265b !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  border: oldlace;
+}
+
+.bg-button-secondary {
+  background-color: whitesmoke !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: gray;
+}
+
+.bg-button-secondary:hover {
+  background-color: #ff265b !important;
+  color: white;
+}
+
+.bg-button-back {
+  background-color: pink !important;
+  border-radius: 50px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: white;
+}
+
+.bg-button-back:hover {
+  background-color: #ff265b !important;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+}
