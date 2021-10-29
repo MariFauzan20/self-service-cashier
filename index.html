@@ -20,7 +20,7 @@
   <body>
     <div class="d-flex flex-row">
       <!-- Sidebar -->
-      <div class="col-1 vh-100">
+      <!-- <div class="col-1 vh-100">
         <div
           class="
             row
@@ -66,7 +66,7 @@
           </svg>
           <h6 class="text-center text-secondary m-0">Drinks</h6>
         </div>
-      </div>
+      </div> -->
 
       <!-- Content -->
       <div class="col-7 bg-light h-100">
@@ -80,12 +80,112 @@
           </div>
           <div id="food" class="row">
             <!-- fetch API -->
+            <div id="1" class="col-4 mt-5">
+              <div class="card rounded-3 border-0">
+                <img
+                  src="https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/Vm7RRv0nsWQmS1fz3iv6.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Sausage Muffin</h5>
+                  <p class="card-text">22500</p>
+                </div>
+                <a
+                  href="#"
+                  data-name="Sausage Muffin"
+                  data-price="22500"
+                  class="add-to-cart btn btn-primary"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div id="2" class="col-4 mt-5">
+              <div class="card rounded-3 border-0">
+                <img
+                  src="https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/9FcgMqqWSFYjE6edaOAL.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Egg and Cheese Muffin</h5>
+                  <p class="card-text">13000</p>
+                </div>
+                <a
+                  href="#"
+                  data-name="Egg and Cheese Muffin"
+                  data-price="13000"
+                  class="add-to-cart btn btn-primary"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div id="3" class="col-4 mt-5">
+              <div class="card rounded-3 border-0">
+                <img
+                  src="https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/AZa7XBfA0ADkUbSdnQOW.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Chicken Muffin</h5>
+                  <p class="card-text">20000</p>
+                </div>
+                <a
+                  href="#"
+                  data-name="Chicken Muffin"
+                  data-price="20000"
+                  class="add-to-cart btn btn-primary"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div id="4" class="col-4 mt-5">
+              <div class="card rounded-3 border-0">
+                <img
+                  src="https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/qrb2OgE9WfuDZp3EtCQg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Egg McMuffin</h5>
+                  <p class="card-text">22500</p>
+                </div>
+                <a
+                  href="#"
+                  data-name="Egg McMuffin"
+                  data-price="22500"
+                  class="add-to-cart btn btn-primary"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+            <div id="5" class="col-4 mt-5">
+              <div class="card rounded-3 border-0">
+                <img
+                  src="https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/O1eyabztTE8thbUbu8Fw.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Chicken Muffin with Egg</h5>
+                  <p class="card-text">25500</p>
+                </div>
+                <a
+                  href="#"
+                  data-name="Chicken Muffin with Egg"
+                  data-price="25500"
+                  class="add-to-cart btn btn-primary"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- Detail Order -->
-      <div class="col-4">
+      <div class="col-5">
         <div class="row m-4">
           <div class="row">
             <div class="col">
@@ -95,7 +195,13 @@
             </div>
           </div>
           <div id="list" class="row">
-            <div
+            <div class="col">
+              <table class="show-cart table">
+                <!-- cart -->
+              </table>
+            </div>
+
+            <!-- <div
               class="
                 card
                 rounded-3
@@ -152,23 +258,25 @@
               <p class="m-0 align-items-center" style="font-size: 12px">
                 Rp 40000
               </p>
-            </div>
+            </div> -->
           </div>
           <div class="row mt-5">
             <hr />
             <div class="d-flex flex-row justify-content-between">
               <div class="label">
-                <p>Sub Total</p>
-                <p>PPN(10%)</p>
+                <p>Total Price:</p>
+                <!-- <p>PPN(10%)</p> -->
               </div>
               <div class="price">
-                <p class="fw-bold">$13.79</p>
-                <p>$0.69</p>
+                <p class="fw-bold total-cart">Rp13.000</p>
+                <!-- <p>$0.69</p> -->
               </div>
             </div>
           </div>
           <div class="row mt-3">
-            <button class="btn btn-danger btn-lg">Charge (Total)</button>
+            <a href="payment.html" class="btn btn-danger btn-lg"
+              >Charge (Total)</a
+            >
           </div>
         </div>
       </div>
@@ -179,6 +287,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="assets/js/index.js"></script>
+    <!-- <script type="module" src="assets/js/index.js"></script> -->
+    <script type="module" src="assets/js/index-test.js"></script>
   </body>
 </html>

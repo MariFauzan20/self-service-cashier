@@ -9,7 +9,7 @@ const renderPosts = async () => {
   foods.map((food) => {
     elFood.insertAdjacentHTML(
       "beforeend",
-      `<div class="col-4 mt-5">
+      `<div id="${food.id}" class=" col-4 mt-5">
         <div class="card rounded-3 border-0">
             <img src="${food.image}" class="card-img-top" alt="..." />
             <div class="card-body text-center">
