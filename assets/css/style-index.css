@@ -5,25 +5,36 @@ body {
   background-color: rgba(148, 145, 141, 0.479);
 }
 
-.bg-button {
+.bg-button-cart {
   background-color: #ff265b !important;
   border-radius: 10px !important;
   text-align: center !important;
   text-decoration: none !important;
+  color: white;
   border: oldlace;
 }
 
-.bg-button-secondary {
+.bg-button-cart:hover {
+  background-color: #ff5f87 !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  color: white;
+  border: oldlace;
+}
+
+.bg-button {
   background-color: whitesmoke !important;
   border-radius: 10px !important;
   text-align: center !important;
   text-decoration: none !important;
   color: gray;
+  border: oldlace;
 }
 
-.bg-button-secondary:hover {
+.bg-button:hover {
   background-color: #ff265b !important;
-  color: white;
+  color: white !important;
 }
 
 .bg-card:hover {
@@ -47,4 +58,12 @@ h1 {
   border: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+.bt:hover {
+  color: white;
+}
+
+.fas-hamburger:hover {
+  color: white !important;
 }
