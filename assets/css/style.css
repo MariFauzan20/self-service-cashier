@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     vertical-align: middle;
     display: flex;
-    font-family: sans-serif;
+    font-family: Poppins;
     font-size: 0.8rem;
     font-weight: bold
 }
@@ -112,6 +112,14 @@ input:focus::-webkit-input-placeholder {
     width: 50%;
     font-size: 0.7rem;
     margin-top: 1vh;
+    background-color: #ff265b !important ;
+    color: white !important;
+
+}
+
+.btn:hover{
+    background-color:#ee5d8e !important;
+    color:black !important;
 }
 
 
@@ -120,7 +128,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: white;
     text-decoration: none
 }
 
