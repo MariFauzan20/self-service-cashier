@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Sausage Muffin",
+    "price": 22500,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/Vm7RRv0nsWQmS1fz3iv6.png",
+    "id": 1
+  },
+  {
+    "name": "Egg and Cheese Muffin",
+    "price": 13000,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/9FcgMqqWSFYjE6edaOAL.png",
+    "id": 2
+  },
+  {
+    "name": "Chicken Muffin",
+    "price": 20000,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/AZa7XBfA0ADkUbSdnQOW.png",
+    "id": 3
+  },
+  {
+    "name": "Egg McMuffin",
+    "price": 22500,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/qrb2OgE9WfuDZp3EtCQg.png",
+    "id": 4
+  },
+  {
+    "name": "Chicken Muffin with Egg",
+    "price": 25500,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/O1eyabztTE8thbUbu8Fw.png",
+    "id": 5
+  },
+  {
+    "name": "Sausage Muffin with Egg",
+    "price": 26500,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/October2019/pOXjdLMT1dffGjlcYHdj.png",
+    "id": 6
+  },
+  {
+    "name": "Coca Cola",
+    "price": 8000,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/D8LeTajQpFSuUbAsugUq.png",
+    "id": 7
+  },
+  {
+    "name": "Sausage Wrap",
+    "price": 20000,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/August2019/oOqk0inorO5YNcw5S2iG.png",
+    "id": 8
+  },
+  {
+    "name": "Fruit Tea Lemon",
+    "price": 8000,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/September2019/mx9q6nIAPvTEzA6l2e61.png",
+    "id": 9
+  },
+  {
+    "name": "Iced Coffee Jelly",
+    "price": 17500,
+    "image": "https://nos.jkt-1.neo.id/mcdonalds/foods/December2019/662lUgvaeMgXhgTnDqDS.png",
+    "id": 10
+  }
+]
